@@ -4,7 +4,9 @@ def fizzbuzz(int)
 
   elsif int % 5 == 0
     return "Buzz"
-else  int % 3 == 0
+  elsif int % 3 == 0
     return "Fizz"
+  elsif int !(%3 && 5) == 0
+    returns "nil"  
   end
 end
